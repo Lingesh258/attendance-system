@@ -166,6 +166,7 @@ Or run directly from IntelliJ IDEA by clicking the green play button.
 
 **5. App starts at**
 http://localhost:8081
+
 **6. Test APIs using Postman**
 
 First register a student:

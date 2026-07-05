@@ -26,11 +26,17 @@ A full-stack attendance management system that automates attendance tracking usi
 
 ```
 src/main/java/com/attendance/attendance_system/
-├── controller/
-│   ├── AuthController.java
-...
-└── exception/
-    └── GlobalExceptionHandler.java
+│
+├── controller/          → REST API endpoints
+├── service/             → Business logic
+├── repository/          → Database queries
+├── entity/              → Database table mappings
+├── dto/
+│   ├── request/         → Incoming request objects
+│   └── response/        → Outgoing response objects
+├── security/            → JWT filter and utilities
+├── config/              → Security configuration
+└── exception/           → Global error handling
 ```
 ├── controller/
 │   ├── AuthController.java

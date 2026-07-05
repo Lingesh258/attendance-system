@@ -193,7 +193,7 @@ Authorization: Bearer <your_token_here>
 
 - All passwords are encrypted using **BCrypt** before storing in the database
 - Every protected endpoint requires a valid **JWT token** in the Authorization header
-- JWT tokens expire after **30 days** (configurable in `JwtUtil.java`)
+- JWT tokens expire after **10 hours** (configurable in `JwtUtil.java`)
 - Tokens contain the user's email and role, verified on every request by `JwtFilter`
 
 ## 👨‍💻 Author

@@ -38,46 +38,6 @@ src/main/java/com/attendance/attendance_system/
 ├── config/              → Security configuration
 └── exception/           → Global error handling
 ```
-├── controller/
-│   ├── AuthController.java
-│   ├── StudentController.java
-│   ├── FacultyController.java
-│   ├── SubjectController.java
-│   ├── ClassSessionController.java
-│   └── AttendanceController.java
-├── service/
-│   ├── StudentService.java
-│   ├── FacultyService.java
-│   ├── SubjectService.java
-│   ├── ClassSessionService.java
-│   └── AttendanceService.java
-├── repository/
-│   ├── StudentRepository.java
-│   ├── FacultyRepository.java
-│   ├── AdminRepository.java
-│   ├── SubjectRepository.java
-│   ├── ClassSessionRepository.java
-│   └── AttendanceRepository.java
-├── entity/
-│   ├── Student.java
-│   ├── Faculty.java
-│   ├── Admin.java
-│   ├── Subject.java
-│   ├── ClassSession.java
-│   └── Attendance.java
-├── dto/
-│   ├── request/
-│   │   └── LoginRequest.java
-│   └── response/
-│       └── LoginResponse.java
-├── security/
-│   ├── JwtUtil.java
-│   ├── JwtFilter.java
-│   └── UserDetailsServiceImpl.java
-├── config/
-│   └── SecurityConfig.java
-└── exception/
-└── GlobalExceptionHandler.java
 
 ## 🗄️ Database Design
 
